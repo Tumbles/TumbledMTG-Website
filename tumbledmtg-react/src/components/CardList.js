@@ -278,7 +278,7 @@ class CardList extends Component {
               }
               break
             case "rarity":
-              if (!rarity === values[i].toLowerCase()) {
+              if (!(rarity === values[i].toLowerCase())) {
                 valid = false
               }
               break
